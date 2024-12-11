@@ -5,7 +5,6 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -15,9 +14,7 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.outlined.Close
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
-import androidx.compose.material3.Label
 import androidx.compose.material3.Scaffold
-import androidx.compose.material3.TextField
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
@@ -75,20 +72,20 @@ fun Intermedia(modifier: Modifier= Modifier)
     Box(Modifier.fillMaxWidth()){
 
     }
-
-
-
 }
 //Metodo principal parte inferior
 @Composable
 fun Inferior (modifier: Modifier = Modifier)
 {
+    Box(Modifier.fillMaxWidth()){
+
+    }
 
 }
 
 //Metodos para los componentes de la parte superior de la aplicacion
 fun finish() {
-    //TODO("Not yet implemented")
+
 }
 
 //Metodos para los componentes de la parte intermedia de la aplicacion
