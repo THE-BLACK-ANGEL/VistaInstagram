@@ -53,7 +53,7 @@ fun InstagramPreview() {
 @Composable
 fun Superior (modifier: Modifier = Modifier)
 {
-    Box(){
+    Box{
         Row{
             Spacer(Modifier.weight(10f))
             IconButton(onClick = { finish() }) {
